@@ -25,12 +25,13 @@ def play_sound_hidden(file_path: str):
         unsafe_allow_html=True,
     )
 
-# 自動補完（入力履歴）を無効にするCSS
+# 入力履歴（ドロップダウン）を完全に非表示にするCSS
 st.markdown(
     """
     <style>
     input[type="text"] {
-        autocomplete: off;
+        autocomplete: off !important;
+        -webkit-autocomplete: off;
     }
     </style>
     """,
