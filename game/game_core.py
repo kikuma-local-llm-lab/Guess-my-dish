@@ -6,7 +6,9 @@ with open("data/dishes.json", encoding="utf-8") as f:
     DISHES = json.load(f)
 
 def pick_random_dish():
-    return random.choice(list(DISHES.items()))
+    item = random.choice(DISHES)
+    return item["dish"], item["ingredients"]
+
 
 def match_score(predicted, actual):
     return SequenceMatcher(None, predicted, actual).ratio()
