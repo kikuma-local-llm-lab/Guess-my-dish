@@ -91,4 +91,4 @@ MIT License
 
 ## 🙌 コントリビュート歓迎
 
-不具合の報告・機能改善・アイデア提案など、ぜひ [Issues](https://github.com/your-repo/issues) や Pull Request をお送りください！
+不具合の報告・機能改善・アイデア提案など、ぜひ Issuesや Pull Request をお送りください！
